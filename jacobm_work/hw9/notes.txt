@@ -1,0 +1,1 @@
+seeing non-linear growth in total system energy with euler method for aproximation

@@ -1,0 +1,10 @@
+ Enter the inital lauch angle (degrees), and the initial launch velocity (meters/second) seperated by a comma:
+ 
+ Writing to results to file: traj30.dat
+ 
+ Trajectory Statstics
+       Angle (degrees):  30.00
+       Initial Velocity (meters/second):  50.00
+       Max Height (meters):  31.86
+       Time to Max Height (seconds): 2.55
+ 

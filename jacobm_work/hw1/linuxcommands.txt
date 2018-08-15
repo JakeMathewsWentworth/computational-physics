@@ -1,0 +1,48 @@
+Jake Mathews
+Phys 3000
+Summer 2018
+Linux Commands
+--------------------------------
+Topic 					Command 	Examples
+List filenames 				ls 		* ls -l .c, ls -a, ls -F, ls -alF
+Move files or directories 		mv 		mv temp.txt newfile.txt
+							mv temp.txt ../new/list.txt
+Copy files or directories 		cp 		cp temp.txt newfile.txt
+							cp temp.txt ../new/list.txt
+Remove a file or directory 		rm 		rm temp.txt
+							rm -i temp.txt
+							rm -rf directory
+Look the MANual pages for a command	man 		man rm
+The '-k' option searches man pages
+  for keyword
+							man -k xterm
+Make a directory 			mkdir 		mkdir newdir
+Remove a directory 			rmdir 		rmdir newdir
+Change directory cd cd texdir
+Print working directory 		pwd 		pwd
+Send file to a printer 			lpr, lp 	lp -Pprintername filename
+List content of file 			cat 		cat file1
+					more 		more file1
+					less 		less file1
+Print string or variable 		echo 		echo $USER
+							echo "hello, world"
+To see list of recent commands 		history 	history
+Set protection of a file 		chmod 		chmod 755 file
+Set owner of a file 			chown 		chown smith file
+Make a link (alias) to a path 		ln 		ln -s ~/classes/phys-317 phys-317
+Find out disk quota 			quota 		quota -v
+Find out disk usage 			du 		du
+Create archive file tarfile.tar from 
+  list of files (can be a directory)	tar -cvf 	tar -cvf tarfile.tar list
+Create gzipped archive file from 
+  list of files				tar -czvf 	tar -czvf tarfile.tar.tgz list
+Extracts files from archive 
+file tarfile. tar			tar -xvf 	tar -xvf tarfile.tar
+Extract files from a gzipped tarfile 	tar -xzvf 	tar -xzvf tarfile.tar.gz
+Zip filename (can be tar file) into
+  compressed				gzip 		gzip filename
+  file filename.gz
+Unzip filename from filename.gz 	gunzip 		gunzip filename.gz
+Another file compression 		bzip2 		bzip2 filename
+Decompressing files 			bunzip2 	bunzip2 filename.bz2
+Convert text files to PostScript 	enscript 	enscript -o file.ps file
