@@ -1,0 +1,3 @@
+[submodule "computational-physics-phobos-deimos-orbits"]
+	path = computational-physics-phobos-deimos-orbits
+	url = https://github.com/JakeMathewsWentworth/computational-physics-phobos-deimos-orbits.git
